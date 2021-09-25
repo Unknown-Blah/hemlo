@@ -45,7 +45,7 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Hemlo", "https://github.com/SlamDevs/slam-mirrorbot")
+    buttons.buildbutton("Hemlo", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.opindia.com%2F2021%2F03%2Fnaomi-wolf-johnny-sins-fake-quote-doctor-ken-kleppenstein-anti-vaxxer%2F&psig=AOvVaw13kd89jvk35cepuyVd7U-C&ust=1632679293897000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNDX6b3amvMCFQAAAAAdAAAAABAI")
     buttons.buildbutton("Channel", "https://t.me/mirror_group_69")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
